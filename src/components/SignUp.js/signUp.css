@@ -1,0 +1,82 @@
+body {
+    background-color: #607d8b;
+  }
+  .box,
+  .box1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #313a3e;
+    width: 380px;
+    height: 515px;
+    border-radius: 8px;
+    margin: 80px auto;
+  }
+  .box1 {
+    height: 300px;
+  }
+  h1 {
+    background-color: #4c575c;
+    margin: 0;
+    text-align: center;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  h1.head {
+    background-color: transparent;
+    color: #034cff;
+    font-size: 45px;
+  }
+  span {
+    color: #313a3e;
+  }
+  .input,
+  .btn1 {
+    width: 85%;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px auto;
+    background-color: #4c575c;
+    border: none;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .input:focus {
+    outline: none;
+    border: 1px solid white;
+  }
+  ::placeholder {
+    color: rgb(207, 207, 207);
+  }
+  .lab,
+  .lab1 {
+    color: white;
+    margin-left: 19px;
+    /* font-size: 25px; */
+  }
+  .btn {
+    width: 23%;
+    margin-left: 19px;
+    margin-top: 10px;
+    background-color: #0f445d;
+    color: white;
+    font-size: 17px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn1 {
+    cursor: pointer;
+  }
+  .btn1:hover {
+    background-color: #4c575c9c;
+  }
+  p {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+  }
+  
